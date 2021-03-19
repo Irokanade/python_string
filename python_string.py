@@ -10,7 +10,7 @@ for x in a:
         upperCase += 1
     elif x.isdigit():
         digit += 1
-    elif x.isspave():
+    elif x.isspace():
         space += 1
 
 
