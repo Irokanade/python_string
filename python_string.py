@@ -15,7 +15,7 @@ for x in a:
         space += 1
 
 
-lowerCase = len(a) - upperCase
+lowerCase = len(a) - upperCase - digit - space
 print('length of a ' + str(len(a)))
 print('number of digits ' + str(digit))
 print('nubmer of upper case ' + str(upperCase))
