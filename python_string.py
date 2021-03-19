@@ -1,5 +1,6 @@
-a = "there are 3 books and 6 pencils here"
+a = "There are 3 books and 6 pencils here"
 upperCase = 0;
+lowerCase = 0;
 digit = 0
 space = 0
 
@@ -14,7 +15,9 @@ for x in a:
         space += 1
 
 
+lowerCase = len(a) - upperCase
 print('length of a ' + str(len(a)))
 print('number of digits ' + str(digit))
 print('nubmer of upper case ' + str(upperCase))
 print('number of space ' + str(space))
+print('number of lower case ' + str(lowerCase))
