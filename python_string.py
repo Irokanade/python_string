@@ -5,7 +5,7 @@ digit = 0
 space = 0
 
 for x in a:
-    print(x)
+    #print(x)
 
     if x.isupper():
         upperCase += 1
